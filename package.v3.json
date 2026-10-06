@@ -4,7 +4,7 @@
     "description": "Monitor a CD2-mounted China Mobile cloud disk without an official API, generate OpenList STRM files, sync subtitles and sidecar files, then refresh Emby.",
     "labels": "moviepilot",
     "version": "V1.6.0",
-    "icon": "https://raw.githubusercontent.com/luyang1104/MoviePilot-Plugins/main/icons/cloudstrm.png",
+    "icon": "https://raw.githubusercontent.com/yyhoworks/MoviePilot-Plugins/main/icons/cloudstrm.png",
     "author": "Felix Yang",
     "level": 1,
     "history": {
@@ -36,7 +36,7 @@
     "description": "实时监控云盘目录，增量生成 STRM 文件，复制字幕和旁车文件，并刷新 Emby。",
     "labels": "moviepilot",
     "version": "2.1.23",
-    "icon": "https://raw.githubusercontent.com/luyang1104/MoviePilot-Plugins/main/icons/cloudstrm.png",
+    "icon": "https://raw.githubusercontent.com/yyhoworks/MoviePilot-Plugins/main/icons/cloudstrm.png",
     "author": "Felix Yang",
     "level": 2,
     "history": {
@@ -74,7 +74,7 @@
     "description": "同步删除历史记录、源文件和下载任务。",
     "labels": "媒体库，文件整理",
     "version": "1.1.2",
-    "icon": "https://raw.githubusercontent.com/luyang1104/MoviePilot-Plugins/main/icons/linkedmediadel.png",
+    "icon": "https://raw.githubusercontent.com/yyhoworks/MoviePilot-Plugins/main/icons/linkedmediadel.png",
     "author": "Felix Yang",
     "level": 1,
     "release": true,

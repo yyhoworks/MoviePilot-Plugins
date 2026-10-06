@@ -71,13 +71,13 @@ class CloudStrmHelper(_PluginBase):
     # 插件描述
     plugin_desc = "OpenList + CD2 实时监控，定时全量增量生成 STRM 文件。"
     # 插件图标
-    plugin_icon = "https://raw.githubusercontent.com/luyang1104/MoviePilot-Plugins/main/icons/cloudstrm.png"
+    plugin_icon = "https://raw.githubusercontent.com/yyhoworks/MoviePilot-Plugins/main/icons/cloudstrm.png"
     # 插件版本
     plugin_version = "V1.6.0"
     # 插件作者
     plugin_author = "Felix Yang"
     # 作者主页
-    author_url = "https://github.com/luyang1104"
+    author_url = "https://github.com/yyhoworks"
     # 插件配置项ID前缀
     plugin_config_prefix = "cloudstrmHelper_"
     # 加载顺序

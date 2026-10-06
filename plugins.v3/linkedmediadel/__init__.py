@@ -30,7 +30,7 @@ class LinkedMediaDel(_PluginBase):
     # 插件作者
     plugin_author = "Felix Yang"
     # 作者主页
-    author_url = "https://github.com/luyang1104"
+    author_url = "https://github.com/yyhoworks"
     # 插件配置项ID前缀
     plugin_config_prefix = "linkedmediadel_"
     # 加载顺序

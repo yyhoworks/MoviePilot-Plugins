@@ -26,7 +26,7 @@ Features:
 Subscribe to the repository itself in MoviePilot's plugin market settings:
 
 ```text
-https://github.com/luyang1104/MoviePilot-Plugins
+https://github.com/yyhoworks/MoviePilot-Plugins
 ```
 
 Do not use the raw `package.json` URL as the market source. MoviePilot reads
@@ -37,7 +37,7 @@ For MoviePilot v3, add the repository to `PLUGIN_MARKET` together with any
 existing sources, separated by commas, then refresh the plugin market:
 
 ```text
-https://github.com/jxxghp/MoviePilot-Plugins,https://github.com/luyang1104/MoviePilot-Plugins
+https://github.com/jxxghp/MoviePilot-Plugins,https://github.com/yyhoworks/MoviePilot-Plugins
 ```
 
 The repository currently contains `CloudStrmHelper` (displayed as

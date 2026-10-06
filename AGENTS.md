@@ -1,6 +1,6 @@
-# MoviePilot-Plugins（luyang1104 个人插件仓库）
+# MoviePilot-Plugins（yyhoworks 个人插件仓库）
 
-MoviePilot v3 架构的第三方插件仓库，同时用作 MP 插件市场源：MP 订阅仓库地址 `https://github.com/luyang1104/MoviePilot-Plugins`（不是 raw package.json URL），自动读取 `package.v3.json` + `plugins.v3/`。
+MoviePilot v3 架构的第三方插件仓库，同时用作 MP 插件市场源：MP 订阅仓库地址 `https://github.com/yyhoworks/MoviePilot-Plugins`（不是 raw package.json URL），自动读取 `package.v3.json` + `plugins.v3/`。
 
 **当前工作焦点：`linkedmediadel`（媒体联动删除，v1.0）——由 MediaSyncDel 2.0.2 模块化重构并更名而来。**
 

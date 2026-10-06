@@ -74,7 +74,7 @@ class CloudStrmButler(_PluginBase):
     # 插件描述
     plugin_desc = "Cloud Strm Butler - 实时监控、定时全量增量生成strm文件。"
     # 插件图标
-    plugin_icon = "https://raw.githubusercontent.com/luyang1104/MoviePilot-Plugins/main/icons/cloudstrm.png"
+    plugin_icon = "https://raw.githubusercontent.com/yyhoworks/MoviePilot-Plugins/main/icons/cloudstrm.png"
     # 插件版本
     plugin_version = "2.1.23"
     # 插件作者
