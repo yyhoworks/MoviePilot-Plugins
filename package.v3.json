@@ -85,5 +85,18 @@
       "v1.1.0": "深度审查修复：空目录回收改为只删真空目录且遇映射目标根/挂载点即停（防误删库根）；特别篇 Season 0 不再退化为整剧删除；空路径拒绝查询防命中全部版本；时间解析失败跳过比较而非退化 1970；Emby 整季删除兜底生效；单条删除异常不再中断批次；转种按目标任务 ID 删种；无种子记录视为已清理；自动停用进程内即时生效；扩展名大小写、排除路径边界、路径映射级联/盘符修复；历史落盘加锁并限 500 条；UI 补危险开关警示与常驻提示，详情页限 100 条。测试 91 条全绿。",
       "v1.0": "基于 MediaSyncDel 2.0.2（含上游 issue #359 的 item_isvirtual 字符串修复）模块化重构并更名发布：拆分为 payloads/transfer_query/deleter/torrents/views 模块，补 53 条测试；无法识别的 item_isvirtual 一律走防误删保护；修复删种返回类型、辅种中断、合集日志、时间戳解析等潜伏问题。"
     }
+  },
+  "QBAutoClean": {
+    "name": "QB 自动清理",
+    "description": "自动删除 qBittorrent 中已完成的任务（仅删任务、保留数据文件），支持豁免标签、豁免站点与执行周期；静默运行不推送消息。",
+    "labels": "下载管理，做种",
+    "version": "1.0.0",
+    "icon": "https://raw.githubusercontent.com/yyhoworks/MoviePilot-Plugins/main/icons/qbautoclean.png",
+    "author": "Felix Yang",
+    "level": 1,
+    "system_version": ">=3.0.0",
+    "history": {
+      "v1.0.0": "初始版本：静默删除 qBittorrent 已完成任务（仅删任务、保留数据文件），支持豁免标签/站点、跳过暂停、演练模式与 /qbclean 手动命令。"
+    }
   }
 }

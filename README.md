@@ -21,6 +21,14 @@ Features:
 
 `CloudStrmButler` is a focused MoviePilot plugin for realtime directory monitoring, full or targeted STRM generation, subtitle and sidecar copying, deletion cleanup, and Emby refresh. Version `2.1.18` keeps the workflow lightweight with a concise status dashboard, simple full-scan options, compatible `/strm` targeting, progress and cancellation, failure details with retry, recent run summaries, and restart-safe background processing. Its plugin ID is `CloudStrmButler`.
 
+## QBAutoClean
+
+`QBAutoClean` is a silent qBittorrent cleanup plugin (`QB 自动清理` in the UI):
+it periodically deletes completed tasks while keeping all data files, with
+exemptions by tag or tracker domain, an optional dry-run mode, a per-run
+deletion cap, and a `/qbclean` command for manual runs (`dry` to preview).
+Its plugin ID is `QBAutoClean`.
+
 ## MoviePilot market source
 
 Subscribe to the repository itself in MoviePilot's plugin market settings:
@@ -41,7 +49,8 @@ https://github.com/jxxghp/MoviePilot-Plugins,https://github.com/yyhoworks/MovieP
 ```
 
 The repository currently contains `CloudStrmHelper` (displayed as
-`CloudStrm`) and `CloudStrmButler` (displayed as `云盘Strm小管家`). Future
-plugins can be added to this same repository by adding
-their metadata to the package index and their code under the matching
-`plugins.v3/<plugin-id>/` and/or `plugins.v2/<plugin-id>/` directory.
+`CloudStrm`), `CloudStrmButler` (displayed as `云盘Strm小管家`) and
+`QBAutoClean` (displayed as `QB 自动清理`). Future plugins can be added to
+this same repository by adding their metadata to the package index and
+their code under the matching `plugins.v3/<plugin-id>/` and/or
+`plugins.v2/<plugin-id>/` directory.
